@@ -1,0 +1,83 @@
+body{
+	font-family: "Times New Roman";
+	font-weight: 500;
+}
+
+.main_content {
+	border : 1px solid rgba(0,0,0,0.1);
+	border-radius: 15px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.05);
+	box-shadow: 0px 10px 10px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+#add {
+	width: 20%;
+	text-align: center;
+}
+
+input[type=text] {
+	width: 70%;	
+}
+	
+label {
+	padding: 0 20px;
+}
+
+a {
+	position: relative;
+	font: Arial;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: lowercase;
+	margin: 5px;
+	border-radius: 20px; 	
+	padding: 5px;
+	background-color: deepskyblue;
+	box-shadow: 0px 2px 2px;
+}
+
+a:hover {
+	cursor: pointer;
+	background-color: lightgray;
+}
+
+a:active {
+	position: relative;
+	top: 2px;
+	left: 2px;
+	box-shadow: none;
+	color: inherit;
+}
+
+.btn_delete,
+.btn_edit {
+	float: right;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;	
+}
+
+li:hover {
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+
+#finished-tasks>li {
+	text-decoration: line-through;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	color: rgba(0,0,0,0.5);
+}
+
+.finished-tasks>a{
+		text-decoration: line-through;
+	color: rgba(0,0,0,0.5);
+}
+
